@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 
 
-const AuthAdmin = new mongoose.Schema({
+const AuthSeller = new mongoose.Schema({
     username: {
         type: String,
         required: [true, "Name is Required"]
@@ -15,13 +15,21 @@ const AuthAdmin = new mongoose.Schema({
         type: String,
         required: [true, "Password is Required"]
     },
+    contactno: {
+        type: String,
+        required: [true, "Contactno is Required"]
+    },
     role: {
         type: String,
         required: [true, "Role is Required"]
+    },
+    approvalStatus:{
+        type:String,
+        default:0
     }
 }, {
     timestamps: true
 })
 
 
-export default mongoose.model("adminauth", AuthAdmin);
+export default mongoose.model("sellerauth", AuthSeller);
