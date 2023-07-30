@@ -1,0 +1,63 @@
+@use "../../../sass/abstract/" as *;
+
+.insidemainsection {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    .insidelogin {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        .left-image {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .right-content {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            .buttonsections {
+                width: 100%;
+                display: flex;
+                gap: 40px;
+                padding: 30px 20px;
+            }
+            .inside-forms {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.switchnames {
+    width: 100%;
+}
+
+.kalai {
+    background-color: orangered !important;
+    padding: 0px 30px;
+}
+
+.sellerloginsactive {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.sellerlogininactive {
+    background-color:grey;
+    color: white;
+    cursor: pointer;
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}

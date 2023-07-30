@@ -1,0 +1,71 @@
+@use '../../../sass/abstract/' as *;
+
+
+.addproductsectionmain
+{
+    width: 85%;
+    margin: 0 auto;
+    height: 100%;
+    padding: 10px;
+}
+.mainslots {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+
+    .slottimesbox {
+        
+        width: 30%;
+        border: 1px solid #e95a5a;
+        padding: 5px 10px;
+        border-radius: 6px;
+        position: relative;
+        .insidesoltstimeboxs {
+            // border: 4px solid blue;
+            .insidedeletetimes {
+                position: absolute;
+                right: -5%;
+                top: -10px;
+            }
+        }
+    }
+}
+
+.buttonslots {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // height: 100%;
+    padding-top:6%;
+    .slotboxtimes {
+        width: 100%;
+        background-color: green;
+        border: none;
+        outline: none;
+        padding: 7px 10px;
+        border-radius: 8px;
+        color: white;
+    }
+}
+
+
+
+.slottimesbox {
+    width: 30%;
+    border: 1px solid #e95a5a;
+    padding: 5px 10px;
+    border-radius: 6px;
+
+}
+
+.slotboxtimess
+{
+    background-color: #e95a5a;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}

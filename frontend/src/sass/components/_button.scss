@@ -1,0 +1,15 @@
+@use "../abstract" as *;
+
+
+
+.submits {
+    width: auto;
+    padding: 5px 40px;
+    border: none;
+    outline: none;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    // font-weight: 800;
+    font-size: 1.3rem;
+}

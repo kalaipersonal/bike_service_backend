@@ -1,0 +1,25 @@
+@use "../../../../sass/abstract/" as *;
+
+.continuebooking {
+    padding: 10px 30px;
+    background-color: orange;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.active
+{
+    // border: 1px solid red !important;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+
+
+}
+.inactive
+{
+    cursor: pointer;
+}

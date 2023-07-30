@@ -1,0 +1,22 @@
+@use "../../../sass/abstract/" as *;
+
+.Updateprofile {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color: orangered;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.profileimage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid orange;
+    margin: 0 auto;
+}
